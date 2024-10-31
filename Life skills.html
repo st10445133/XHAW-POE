@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ETN - Life skills</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="Home.html" target="_blank" id = "textcolour">Home</a></li>
+                <li><a href="Contact us.html" target = "_blank" id = "textcolour">Contact Us</a></li>
+                <li><a href="About us.html" target = "_blank" id = "textcolour">About Us</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Six Month Course</a>
+                    <div class="dropdown-content">
+                        <a href="Landscaping.html" target = "_blank" id = "textcolour">Landscaping</a>
+                        <a href="Sewing.html" target = "_blank" id = "textcolour">Sewing</a>
+                        <a href="First Aid.html" target = "_blank" id = "textcolour">First Aid</a>
+                        <a class="active" href="Life skills.html" target = "_blank" id = "textcolour">Life Skills</a>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Six Week Course</a>
+                    <div class="dropdown-content">
+                        <a href="Garden Maintenance.html" target = "_blank" id = "textcolour">Garden Maintenance</a>
+                        <a href="Child Minding.html" target = "_blank" id = "textcolour">Child Minding</a>
+                        <a href="Cooking.html" target = "_blank" id = "textcolour">Cooking</a>
+                    </div>
+                </li>
+                <li><a href="Cart.html" target="_blank" id = "textcolour">Cart
+                    <span id="cart-counter">0</span>
+                </a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div class="logo-container">
+        <img src="Assets/6.png" alt="etn-life-skills" class="logo" >
+    </div>
+
+    <main class="card">
+        <div class="product-info-container">
+            
+            <div class="product-info-text">
+
+                <h2 id="coursenameL">Certificate in Life Skills</h2>
+                <p>
+                    This comprehensive 6-month Certificate in Life skills program equips students with the practical 
+                    skills and knowledge required to succeed in the navigating life. To equip students with the knowledge, abilities, and attitudes necessary 
+                    to effectively navigate everyday life, achieve personal goals, and maintain overall well-being.
+
+                <h3>Duration</h3>
+                <p>6 Months</p>
+
+                <h3>Fees</h3>
+                <p>R1500</p> 
+                
+                <button class="button product-button" onclick="addToCart('Certificate in Life Skills', 1500)">Add to Cart</button>
+            </div>
+
+        </div>
+
+        <br>
+        <div class="product-overview">
+            <h3>COURSE CONTENT</h3>
+            <p>1. Opening a bank account </p>
+            <p>2. Basic labour law (know your rights)</p>
+            <p>3. Basic reading and writing literacy</p>
+            <p>4. Basic numeric literacy</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+<footer class="footer">
+    <div >
+        <a href ="https://facebook.com" class="fa fa-facebook-official w3-hover-opacity"></a>
+        <a href ="https://instagram.com" class="fa fa-instagram w3-hover-opacity"></a>
+        <a href ="https://x.com" class="fa fa-twitter w3-hover-opacity"></a>
+        <a href ="https://linkedin.com" class="fa fa-linkedin w3-hover-opacity"></a>
+    </div>
+
+</footer>
+</html>

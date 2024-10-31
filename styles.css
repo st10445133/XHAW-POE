@@ -1,0 +1,331 @@
+/* To ensure website has a box layout */
+* {
+  box-sizing: border-box;
+}
+
+body{
+  /* padding: 10px; */
+  background: #829696;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0%;
+  margin-right: 0%; */
+}
+
+nav {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  /* gap: 500px; */
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+} 
+
+
+/* Style Navigation Bar */
+ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: A3BDBD#; */
+}
+
+/* Dropdown Menu in Navigation Bar */
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  /* background-color: #A3BDBD; */
+}
+  
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #5b6969;
+}
+  
+li.dropdown {
+  display: inline-block;
+}
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #5b6969;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+  
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+  
+.dropdown-content a:hover {background-color: #A3BDBD}
+  
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Active website */
+.active {
+  background-color:#4e5b5b;
+}
+
+/* Header information */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(145, 194, 147);
+}
+
+header {
+  color: #fff;
+  /* padding: 1em; */
+  text-align: center;
+  align-content: space-between;
+}
+
+.header img{
+  width: 100%;
+  height: auto;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  object-fit: fill;
+}
+
+.logo{
+  width: 100%;
+  height: auto;
+  /* position: absolute; */
+} 
+
+/* Card effect */
+.card {
+  background-color: #5b6969;
+  padding: 20px;
+  margin-top: 20px;
+  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#textcolour{
+  color: white;
+}
+
+/* Creates two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+} 
+  
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+} 
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.left{
+  width: 33.33%;
+}
+
+.column.middle{
+  width: 33.34%;
+}
+
+.column.right{
+  width: 33.33%;
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #5b6969;
+  margin-top: 20px;
+}
+  
+* {
+  box-sizing: border-box;
+}
+  
+.about-card {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  justify-content: center;
+  align-content: center;
+
+}
+.about-container{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.about-p {
+  text-align: center;
+  color: #fff;
+  font-family: Verdana;
+  font-weight: 500;
+}
+.about-text {
+  text-align: center;
+  color: #fff;
+  font-family: Verdana;
+  font-weight: bolder;
+
+}
+.precious-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffb70099;
+  justify-content: center;
+  align-content: center;
+  padding-top: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 10px;
+  border-radius: 8px;
+}
+.precious-about {
+  text-align: center;
+  color:#fff ;
+  font-family: Verdana;
+  font-weight: lighter;
+}
+.precious-image {
+  width: 260px;
+  height: auto;
+  border-radius: 25%;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  background-color:#5b6969 ;
+  justify-content: center;
+  align-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+} 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  background-color: #829696;
+}
+.product-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffb70099;
+}
+.product-info-text {
+  text-align: center;
+  color:#fff ;
+  font-family: Verdana;
+  font-weight: lighter;
+}
+.product-overview {
+  text-align: start;
+  color:#fff ;
+  font-family: Verdana;
+  font-weight: lighter;
+  margin-left: 15px;
+}
+.button {
+  background-color: #5b6969; 
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  /* justify-content: center;
+  align-items: center; */
+  text-align: center;
+  text-decoration: none; 
+  border-radius: 20px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.product-button {
+  background-color: #ffb7007d;
+  transition-duration: 0.4s;
+  color: #fff;
+  border: 2px solid #5b6969;
+}
+.product-button:hover {
+  background-color: #5b6969; 
+  color: white;
+}
+.product-button-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+#cart-counter {
+  background-color: #333;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 50%;
+  font-size: 12px;
+  position: relative;
+  top: -5px;
+}
+
+.remove-btn {
+  background-color: rgba(255, 0, 0, 0.427);
+  border-radius: 30px;
+  padding: 5px;
+  color: #fff;
+}
+.remove-btn:hover {
+  background-color: #9b1003;
+}
+
+
+  
+
